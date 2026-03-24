@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Models (large files – track with Git LFS if needed)
+models/*.joblib
+
+# Reports / outputs
+reports/plots/
+reports/*.json
+reports/segment_report*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
